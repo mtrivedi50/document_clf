@@ -25,7 +25,7 @@ If you're having trouble viewing the notebooks, please try viewing the notebook 
 * `conda create --name [NAME_OF_ENV] --file requirements.txt`
 
 **5. Create a 'settings' folder in the directory where the environment stores its packages and details**
-* `cd $CONDA_PREFIX`
+* `cd $CONDA_PREFIX/lib/python3.7/site-packages`
 * `mkdir settings`
 * `cd settings`
 * `touch __init__.py`
