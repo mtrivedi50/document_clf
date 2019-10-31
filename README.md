@@ -22,9 +22,7 @@ If you're having trouble viewing the notebooks, please try viewing the notebook 
 
 **4. Create a virtual environment and download the requirements (instructions below using Conda)**
 * `cd document_clf`
-* `conda create -n [NAME_OF_ENV]`
-* `conda activate [NAME_OF_ENV]`
-* `conda install --file requirements.txt`
+* `conda create --name [NAME_OF_ENV] --file requirements.txt`
 
 **5. Create a 'settings' folder in the directory where the environment stores its packages and details**
 * `cd $CONDA_PREFIX`
